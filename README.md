@@ -1,7 +1,13 @@
 # advansed-crypto-signal-bot
 
-How to Use:
-Install the required dependencies (such as ccxt, numpy, and time).
+This code detects divergence between price and RSI. The last three values of price and RSI are considered. If price and the indicator change in different directions, this may signal divergence:
+
+Bullish Divergence: Price is falling, while RSI is rising.
+
+Bearish Divergence: Price is rising, while RSI is falling. The strength of the divergence is also determined based on the difference between the RSI values over the last two periods: weak (less than 5), moderate (5 to 10)
+and strong (greater than 10).
+
+Thus, this script helps automate cryptocurrency market monitoring, track potential trading signals based on price and RSI changes, and identify possible divergences.
 
 Define the list of coins you want to track in the COINS variable.
 
