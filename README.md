@@ -1,5 +1,5 @@
 # advansed-crypto-signal-bot
-
+![изображение](https://github.com/user-attachments/assets/fe8b1609-523a-4e52-b0ad-75d814cb799d)
 This code detects divergence between price and RSI. The last three values of price and RSI are considered. If price and the indicator change in different directions, this may signal divergence:
 
 Bullish Divergence: Price is falling, while RSI is rising.
@@ -24,4 +24,4 @@ ATR: The script uses a simple method based on standard deviation to approximate 
 
 Compiled version with 4h timeframe(default): https://github.com/lucaswrao/crypto-signal-bot/releases/download/crypto/signals.zip
 
-![изображение](https://github.com/user-attachments/assets/fe8b1609-523a-4e52-b0ad-75d814cb799d)
+
